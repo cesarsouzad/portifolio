@@ -217,36 +217,42 @@ h3 {
   background-image: url('trabalho-um.jpg');
   background-position: 50% 50%;
   background-size: cover;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .work.two {
-  background-image: url('fundo1.jpg');
+  background-image: url('trabalho-dois.jpg');
   background-position: 50% 50%;
   background-size: cover;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .work.three {
   background-image: url('fundo1.jpg');
   background-position: 50% 50%;
   background-size: cover;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .work.four {
   background-image: url('fundo1.jpg');
   background-position: 50% 50%;
   background-size: cover;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .work.five {
   background-image: url('fundo1.jpg');
   background-position: 50% 50%;
   background-size: cover;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .work.six {
   background-image: url('fundo1.jpg');
   background-position: 50% 50%;
   background-size: cover;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .work-cover {
