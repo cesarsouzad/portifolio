@@ -34,7 +34,7 @@ h2 {
 h3 {
   margin-top: 20px;
   margin-bottom: 10px;
-  color: #101650;
+  color: #6877ff;
   font-size: 2.5em;
   line-height: 30px;
   font-weight: 800;
@@ -171,7 +171,7 @@ h3 {
 .work-section {
   padding-top: 75px;
   padding-bottom: 75px;
-  background-color: #f1f1f1;
+  background-color: #11111d;
   background-image: url('MEUSTRABALHOS.svg');
   background-position: 100% 0%;
   background-size: 50vw;
@@ -217,42 +217,42 @@ h3 {
   background-image: url('trabalho-um.jpg');
   background-position: 50% 50%;
   background-size: cover;
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 6px blue);
 }
 
 .work.two {
   background-image: url('trabalho-dois.jpg');
   background-position: 50% 50%;
   background-size: cover;
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 6px blue);
 }
 
 .work.three {
-  background-image: url('fundo1.jpg');
+  background-image: url('trabalho-tres.png');
   background-position: 50% 50%;
   background-size: cover;
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 6px blue);
 }
 
 .work.four {
-  background-image: url('fundo1.jpg');
+  background-image: url('trabalho-quatro.png');
   background-position: 50% 50%;
   background-size: cover;
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 6px blue);
 }
 
 .work.five {
   background-image: url('fundo1.jpg');
   background-position: 50% 50%;
   background-size: cover;
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 6px blue);
 }
 
 .work.six {
   background-image: url('fundo1.jpg');
   background-position: 50% 50%;
   background-size: cover;
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 6px blue);
 }
 
 .work-cover {
@@ -307,6 +307,15 @@ h3 {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  filter: drop-shadow(0px 4px 20px blue);
+}
+.columntext{
+  text-align: justify;
+  color: azure;
+  filter: drop-shadow(2px 4px 6px black);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .profile-pic {
@@ -338,6 +347,7 @@ h3 {
 .about-section {
   padding-top: 90px;
   padding-bottom: 90px;
+  background-color: #11111d;
   background-image: url('SOBREMIM.svg');
   background-position: 100% 17%;
   background-size: 28vw;
@@ -351,13 +361,14 @@ h3 {
 
 .contact-links-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin-top: 45px;
+  justify-content: center;
+  
 }
 
 .contact-link {
-  color: #fff;
   text-decoration: none;
   font-size: 1.6em;
   display: flex;
@@ -367,8 +378,28 @@ h3 {
 
 .contact-link img {
   width: 30px;
-  margin-right: 10px;
+  margin-right: 30px;
 }
+
+img#email:hover{
+  transition: 0.3s ease-in-out;
+  width: 4rem;
+}
+img#whats:hover {
+  transition: 0.3s ease-in-out;
+  width: 4rem;
+}
+img#github {
+  filter: saturate(7.5);
+  width: 2rem;
+  transition: ease-in-out;
+}
+img#github:hover {
+  filter: saturate(7.5);
+  transition: 0.3s ease-in-out;
+  width: 4rem;
+}
+
 
 @media screen and (max-width: 991px) {
   .hero {
@@ -423,6 +454,7 @@ h3 {
   .column {
     width: 90%;
   }
+  
   .profile-pic {
     display: block;
     margin-right: auto;
