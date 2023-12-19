@@ -285,6 +285,14 @@ h3 {
   font-weight: 700;
   letter-spacing: 0.1em;
 }
+ul.TECS {
+  LIST-STYLE: NONE;
+  COLOR: cyan;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+  BORDER-RADIUS: 5PX;
+  PADDING: 5PX 50PX;
+  TEXT-ALIGN: left;
+}
 
 .website-link {
   color: rgb(47, 105, 180);
