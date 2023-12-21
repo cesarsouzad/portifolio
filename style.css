@@ -41,6 +41,11 @@ h3 {
   letter-spacing: 0.1em;
   text-shadow: 2px 22px 10px rgba(2, 0, 27, 0.322);
 }
+h4{
+  text-shadow: 1px 2px 5px rgb(39 86 249);
+  color: #ffffff;
+  text-align: center;
+}
 
 .hero {
   display: -webkit-box;
@@ -173,8 +178,8 @@ h3 {
   padding-bottom: 75px;
   background-color: #11111d;
   background-image: url('MEUSTRABALHOS.svg');
-  background-position: 100% 0%;
-  background-size: 50vw;
+  background-position: 200% 7%;
+  background-size: 88vw;
   background-repeat: no-repeat;
 }
 
@@ -288,10 +293,11 @@ h3 {
 ul.TECS {
   LIST-STYLE: NONE;
   COLOR: cyan;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(90deg, rgb(0, 23, 138) 0%, rgba(255,255,255,0) 100%);
   BORDER-RADIUS: 5PX;
   PADDING: 5PX 50PX;
   TEXT-ALIGN: left;
+  margin: 0px;
 }
 
 .website-link {
@@ -336,15 +342,19 @@ ul.TECS {
   margin-top: 35px;
   font-size: 1.2em;
   line-height: 1.7em;
+  background: rgb(0 0 0 / 13%);
+  backdrop-filter: blur(28px);
 }
 
 .social-wrapper {
   margin-top: 35px;
-  
 }
 
 .social-icon {
   margin-right: 30px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s ease-in-out, filter 0.5s ease-in-out;
 }
 
 .social-icon img {
@@ -352,14 +362,74 @@ ul.TECS {
   filter: hue-rotate(301deg);
 }
 
+.social-icon img:hover{
+  filter: brightness(10);
+  transform: scale(2.0);
+}
+
 .about-section {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #11111d;
   background-image: url('SOBREMIM.svg');
-  background-position: 100% 17%;
-  background-size: 28vw;
+  background-position: 0% 5%;
+  background-size: 88vw;
   background-repeat: no-repeat;
+}
+.skills{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #000000;
+  background-image: url('MinhasSkills.svg');
+  background-position: 0% 5%;
+  background-size: 88vw;
+  background-repeat: no-repeat;
+  height: 25vh;
+  
+}
+.box-skill{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.378);
+  backdrop-filter: blur(5px);
+  padding: 20px 20px;
+  align-items: center;
+  align-content: baseline;
+  margin: 3rem 2rem 0px;
+  border: 1px solid rgba(103, 103, 103, 0.348);
+  border-radius: 10px;
+}
+.box-skill img{
+  width: 8vw;
+  position: relative;
+  transition-duration: 0.5s;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  padding-bottom: 45px;
+}
+.box-skill img:hover{
+  transform: scale(1.2);
+  transition:  ease-in-out 0.7s;
+}
+.sk-uno{
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.sk-uno .caption {
+  display: none;
+  position: absolute;
+
+}
+.sk-uno:hover .caption{
+  display: block;
+}
+.sk-uno h1{
+  text-align: center;
+  position: absolute;
 }
 
 .contact-heading {
